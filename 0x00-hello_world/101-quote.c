@@ -3,8 +3,8 @@
 
 
 /**
-*main - Entry point
-*Return: Always 1
+*main - prints exactly and that piece of art is useful
+*Return: Always 0 (Success)
 */
 
 int main(void)
