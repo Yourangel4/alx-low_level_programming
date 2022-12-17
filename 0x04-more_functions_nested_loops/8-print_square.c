@@ -4,7 +4,7 @@
  * print_square - prints hashes squares.
  * @size: size of the square.
  *
- * Return: no returb.
+ * Return: no return.
  */
 void print_square(int size)
 {
