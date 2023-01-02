@@ -20,8 +20,10 @@ void *_memcpy(void *dest, const void *src, size_t n)
 	unsigned char *destination = dest;
 	const unsigned char *source = src;
 
-	for (index = 0; index < n; index++)
+	for (index = 0; n > 0; index++, n--)
+	{
 		destination[index] = source[index];
+	}
 
 	return (dest);
 }
