@@ -10,7 +10,7 @@
  * @a: the chessboard to be printed
  */
 void print_chessboard(char (*a)[8])
-
+{
 	int indx1, indx2;
 
 	for (indx1 = 0; a[indx1][7]; indx1++)
