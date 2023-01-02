@@ -11,6 +11,7 @@
  *			of a square matrix of integers
  * @: the matrix of integers
  * @size: the size of the matrix
+ * Return: no return
  */
 void print_diagsums(int *a, int size)
 {
