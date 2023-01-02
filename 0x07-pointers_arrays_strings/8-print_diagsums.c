@@ -9,7 +9,7 @@
 /**
  * print_diagsums - prints the sum of two diagonals
  *			of a square matrix of integers
- * @: the matrix of integers
+ * @a: the matrix of integers
  * @size: the size of the matrix
  * Return: void
  */
