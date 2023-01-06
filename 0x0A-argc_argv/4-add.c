@@ -10,7 +10,7 @@
  */
 int check_num(char *str)
 {
-	/*declaring variables*/
+	/*Declaring variables*/
 	unsigned int count;
 
 	count = 0;
@@ -38,7 +38,7 @@ int check_num(char *str)
 int main(int argc, char *argv[])
 {
 
-	/*declaring variables*/
+	/*Declaring variables*/
 	int count;
 	int str_to_int;
 	int sum = 0;
@@ -51,6 +51,13 @@ int main(int argc, char *argv[])
 		{
 			str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 			sum += str_to_int;
+		}
+
+		/*condition if one of the number contains symbols that are not digits */
+		else
+		{
+			printf("Error\n");
+			return (1);
 		}
 
 		count++;
