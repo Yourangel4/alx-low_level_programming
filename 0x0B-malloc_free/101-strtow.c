@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include"main.h"
+#include "main.h"
 
 int word_len(char *str);
 int count_words(char *str);
