@@ -5,13 +5,14 @@
  * a specific char
  * @size: size of array
  * @c: char to initialize array with
- * Return: pointer
+ * Return: NULL if it fails or
+ * pointer to array
  */
 
 char *create_array(unsigned int size, char c)
 {
 	char *arr;
-	unsigned int position;
+	unsigned int i;
 
 	if (size == 0)
 	{
