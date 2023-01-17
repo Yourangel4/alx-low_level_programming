@@ -4,14 +4,13 @@
 /**
  * free_dog - a function that frees dogs
  * @d: a pointer to dog struct
- *
- * Return: void
  */
 void free_dog(dog_t *d)
 {
-	if (d == 0)
-		return;
+	if (d)
+	{
 	free(d->name);
 	free(d->owner);
 	free(d);
+	}
 }
