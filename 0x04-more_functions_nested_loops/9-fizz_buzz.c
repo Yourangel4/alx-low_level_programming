@@ -15,15 +15,15 @@ int main(void)
 	{
 	if (i % 3 == 0 && i % 5 != 0)
 	{
-	printf("fizz");
+	printf(" fizz");
 	}
 	else if (i % 5 == 0 && i % 3 != 0)
 	{
-	printf("buzz");
+	printf(" buzz");
 	}
 	else if (i % 3 == 0 && i % 5 == 0)
 	{
-	printf("fizzbuzz");
+	printf(" fizzbuzz");
 	}
 	else if (i == 1)
 	{
